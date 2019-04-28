@@ -12,3 +12,4 @@ call plug#end()
 
 set expandtab
 set shiftwidth=2
+set number
