@@ -4,6 +4,7 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/fzf'
+Plug 'scrooloose/nerdtree'
 
 " Initialize plugin system
 call plug#end()
