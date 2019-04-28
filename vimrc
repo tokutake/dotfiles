@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/fzf'
 Plug 'scrooloose/nerdtree'
+Plug 'kien/ctrlp.vim'
 
 " Initialize plugin system
 call plug#end()
@@ -18,3 +19,7 @@ nnoremap <silent> <C-h> <C-w>h
 nnoremap <silent> <C-l> <C-w>l
 nnoremap <silent> <C-k> <C-w>k
 nnoremap <silent> <C-j> <C-w>j
+
+" fuzzy file finder setting
+let g:ctrlp_map = ',t'
+nnoremap <silent> ,t :CtrlP<CR>
