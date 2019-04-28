@@ -3,7 +3,6 @@
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 
-Plug 'tpope/vim-sensible'
 Plug 'junegunn/fzf'
 Plug 'scrooloose/nerdtree'
 
