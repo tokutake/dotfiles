@@ -21,3 +21,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 
 alias gs="git status"
+
+# Set default less option
+# Imported from https://github.com/sorin-ionescu/prezto/blob/master/runcoms/zprofile
+export LESS='-F -g -i -M -R -S -w -X -z-4'
