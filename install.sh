@@ -1,5 +1,5 @@
 # install oh-my-zsh
-SH=~/.oh-my-zsh
+ZSH=~/.oh-my-zsh
 git clone https://github.com/robbyrussell/oh-my-zsh.git "$ZSH"
 ln -sf $HOME/dotfiles/zshrc $HOME/.zshrc
 
