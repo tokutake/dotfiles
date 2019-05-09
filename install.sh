@@ -13,3 +13,8 @@ for package in $(cat brew/packages)
 do
   brew install $package
 done
+
+brew cask install visual-studio-code
+
+# install code command
+ln -s /usr/local/bin/code "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code"
