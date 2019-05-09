@@ -4,7 +4,6 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load
 ZSH_THEME="random"
 
-
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -21,6 +20,8 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 
 alias gs="git status"
+alias gps="git push"
+alias gpsh="git push -u origin `git rev-parse --abbrev-ref HEAD`"
 
 # Set default less option
 # Imported from https://github.com/sorin-ionescu/prezto/blob/master/runcoms/zprofile
