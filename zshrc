@@ -26,3 +26,6 @@ alias gpsh="git push -u origin `git rev-parse --abbrev-ref HEAD`"
 # Set default less option
 # Imported from https://github.com/sorin-ionescu/prezto/blob/master/runcoms/zprofile
 export LESS='-F -g -i -M -R -S -w -X -z-4'
+
+# Set up rbenv.
+eval "$(rbenv init -)"
