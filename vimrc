@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
+Plug 'tpope/vim-rails'
 
 " Initialize plugin system
 call plug#end()
