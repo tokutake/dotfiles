@@ -19,10 +19,14 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
+# Git aliases
 alias gs="git status"
 alias gps="git push"
 alias gpsh="git push -u origin `git rev-parse --abbrev-ref HEAD`"
 alias gdc="git diff --cached"
+
+# Rails aliases
+alias r="bin/rails"
 
 # Set default less option
 # Imported from https://github.com/sorin-ionescu/prezto/blob/master/runcoms/zprofile
