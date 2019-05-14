@@ -15,3 +15,9 @@ do
 done
 
 brew cask install visual-studio-code
+
+# install pip packages
+for package in $(cat pip.txt)
+do
+  pip3 install $package
+done
