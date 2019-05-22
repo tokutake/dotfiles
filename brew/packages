@@ -3,3 +3,4 @@ fd
 tig
 rbenv
 pipenv
+kubernetes-cli
