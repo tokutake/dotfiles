@@ -14,7 +14,6 @@ do
   brew install $package
 done
 
-brew cask install visual-studio-code
 
 # install pip packages
 for package in $(cat pip.txt)
