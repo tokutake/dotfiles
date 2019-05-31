@@ -2,5 +2,6 @@ ag
 fd
 tig
 rbenv
+node
 pipenv
 kubernetes-cli
