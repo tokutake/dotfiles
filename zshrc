@@ -27,6 +27,7 @@ alias gdc="git diff --cached"
 
 # Rails aliases
 alias r="bin/rails"
+alias rs="bin/rails server"
 
 # Set default less option
 # Imported from https://github.com/sorin-ionescu/prezto/blob/master/runcoms/zprofile
