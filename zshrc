@@ -20,14 +20,14 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 
 # Git aliases
-alias gs="git status"
-alias gps="git push"
-alias gpsh="git push -u origin `git rev-parse --abbrev-ref HEAD`"
-alias gdc="git diff --cached"
+alias gs='git status'
+alias gps='git push'
+alias gpsh='git push -u origin `git rev-parse --abbrev-ref HEAD`'
+alias gdc='git diff --cached'
 
 # Rails aliases
-alias r="bin/rails"
-alias rs="bin/rails server"
+alias r='bin/rails'
+alias rs='bin/rails server'
 
 # Set default less option
 # Imported from https://github.com/sorin-ionescu/prezto/blob/master/runcoms/zprofile
