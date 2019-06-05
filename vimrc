@@ -26,3 +26,7 @@ nnoremap <silent> <C-j> <C-w>j
 " fuzzy file finder setting
 let g:ctrlp_map = ',t'
 nnoremap <silent> ,t :CtrlP<CR>
+
+" silver search
+nnoremap ,gg :Ag ""<left>
+
