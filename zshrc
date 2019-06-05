@@ -29,6 +29,9 @@ alias gdc='git diff --cached'
 alias r='bin/rails'
 alias rs='bin/rails server'
 
+# ctags
+alias ctags='`brew --prefix`/bin/ctags'
+
 # Set default less option
 # Imported from https://github.com/sorin-ionescu/prezto/blob/master/runcoms/zprofile
 export LESS='-F -g -i -M -R -S -w -X -z-4'
