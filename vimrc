@@ -7,6 +7,7 @@ Plug 'junegunn/fzf'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-rails'
+Plug 'rking/ag.vim'
 
 " Initialize plugin system
 call plug#end()
