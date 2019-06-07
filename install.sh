@@ -3,6 +3,9 @@ ZSH=~/.oh-my-zsh
 git clone https://github.com/robbyrussell/oh-my-zsh.git "$ZSH"
 ln -sf $HOME/dotfiles/zshrc $HOME/.zshrc
 
+# set up git
+ln -sf $HOME/dotfiles/gitconfig $HOME/.gitconfig
+
 # set up vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
