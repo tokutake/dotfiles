@@ -8,3 +8,4 @@ kubernetes-cli
 ctags
 docker
 docker-compose
+tmux
