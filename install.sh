@@ -6,6 +6,9 @@ ln -sf $HOME/dotfiles/zshrc $HOME/.zshrc
 # set up git
 ln -sf $HOME/dotfiles/git/gitconfig $HOME/.gitconfig
 
+# set up tmux
+ln -sf $HOME/dotfiles/tmux.conf $HOME/.tmux.conf
+
 # set up vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -16,7 +19,6 @@ for package in $(cat brew/packages)
 do
   brew install $package
 done
-
 
 # install pip packages
 for package in $(cat pip.txt)
