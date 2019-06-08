@@ -38,3 +38,8 @@ export LESS='-F -g -i -M -R -S -w -X -z-4'
 
 # Set up rbenv.
 eval "$(rbenv init -)"
+
+# load local zsh config
+if [ -f $HOME/.zsh.local ]; then
+  source $HOME/.zsh.local
+fi
