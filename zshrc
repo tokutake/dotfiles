@@ -9,9 +9,7 @@ ZSH_THEME="random"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-
 plugins=(git)
-
 source $ZSH/oh-my-zsh.sh
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
@@ -32,6 +30,9 @@ alias rs='bin/rails server'
 # ctags
 alias ctags='`brew --prefix`/bin/ctags'
 
+# dotfiles
+alias dot='cd $HOME/dotfiles'
+
 # Set default less option
 # Imported from https://github.com/sorin-ionescu/prezto/blob/master/runcoms/zprofile
 export LESS='-F -g -i -M -R -S -w -X -z-4'
@@ -43,3 +44,4 @@ eval "$(rbenv init -)"
 if [ -f $HOME/.zsh.local ]; then
   source $HOME/.zsh.local
 fi
+
