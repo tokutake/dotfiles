@@ -16,6 +16,7 @@ set expandtab
 set shiftwidth=2
 set number
 set incsearch
+set noswapfile
 
 " Windows navigation
 nnoremap <silent> <C-h> <C-w>h
