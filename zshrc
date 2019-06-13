@@ -22,6 +22,7 @@ alias gs='git status'
 alias gps='git push'
 alias gpsh='git push -u origin `git rev-parse --abbrev-ref HEAD`'
 alias gdc='git diff --cached'
+alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 
 # Rails aliases
 alias r='bin/rails'
