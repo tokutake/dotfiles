@@ -28,6 +28,9 @@ alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 alias r='bin/rails'
 alias rs='bin/rails server'
 
+# docker-compose
+alias dc='docker-compose'
+
 # ctags
 alias ctags='`brew --prefix`/bin/ctags'
 
