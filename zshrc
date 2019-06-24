@@ -39,10 +39,6 @@ alias ctags='`brew --prefix`/bin/ctags'
 # dotfiles
 alias dot='cd $HOME/dotfiles'
 
-# python
-alias python='python3'
-alias pip='pip3'
-
 # Set default less option
 # Imported from https://github.com/sorin-ionescu/prezto/blob/master/runcoms/zprofile
 export LESS='-F -g -i -M -R -S -w -X -z-4'
