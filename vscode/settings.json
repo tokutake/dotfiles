@@ -7,5 +7,6 @@
         "fasterer": true,
         "debride": true,
         "ruby-lint": true
-    }
+    },
+    "ruby.intellisense": "rubyLocate"
 }
