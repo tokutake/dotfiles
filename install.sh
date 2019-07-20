@@ -15,6 +15,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ln -sf $HOME/dotfiles/vimrc $HOME/.vimrc
 
+mkdir -p ~/.config/nvim/init.vim
+ln -sf $HOME/dotfiles/nvim/init.vim $HOME/.config/nvim/init.vim
+
 # install brew packages
 for package in $(cat brew/packages)
 do
