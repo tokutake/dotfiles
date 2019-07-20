@@ -37,3 +37,4 @@ nnoremap <silent> ,t :FZF<CR>
 " silver search
 nnoremap ,gg :Ag ""<left>
 
+set clipboard=unnamed
