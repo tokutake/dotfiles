@@ -10,6 +10,7 @@ Plug 'tpope/vim-rails'
 Plug 'rking/ag.vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'ngmy/vim-rubocop'
+Plug 'tpope/vim-fugitive'
 
 " Initialize plugin system
 call plug#end()
