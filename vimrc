@@ -12,6 +12,10 @@ Plug 'vim-syntastic/syntastic'
 Plug 'ngmy/vim-rubocop'
 Plug 'tpope/vim-fugitive'
 
+" Syntastics
+let g:syntastic_ruby_checkers = ['rubocop', 'mri']
+let g:syntastic_ruby_rubocop_exec = '~/.rbenv/shims/rubocop'
+
 " Initialize plugin system
 call plug#end()
 
