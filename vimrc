@@ -9,6 +9,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-rails'
 Plug 'rking/ag.vim'
 Plug 'vim-syntastic/syntastic'
+Plug 'ngmy/vim-rubocop'
 
 " Initialize plugin system
 call plug#end()
