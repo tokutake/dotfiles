@@ -11,7 +11,8 @@ alias gbX='git branch -D'
 alias r='bin/rails'
 alias rs='bin/rails server'
 
-# docker-compose
+# docker
+alias dp='docker ps'
 alias dc='docker-compose'
 
 # ctags
