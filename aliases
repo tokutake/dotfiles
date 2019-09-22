@@ -14,8 +14,9 @@ alias rs='bin/rails server'
 # docker
 alias dp='docker ps'
 alias dc='docker-compose'
-
-alias dp='docker ps'
+alias du='docker-compose up -d'
+alias dd='docker-compose down'
+alias dr='docker-compose down && docker-compose up -d'
 
 # ctags
 alias ctags='`brew --prefix`/bin/ctags'
