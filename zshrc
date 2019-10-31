@@ -19,10 +19,6 @@ source $ZSH/oh-my-zsh.sh
 
 source $HOME/dotfiles/aliases
 
-# Set default less option
-# Imported from https://github.com/sorin-ionescu/prezto/blob/master/runcoms/zprofile
-export LESS='-F -g -i -M -R -S -w -X -z-4'
-
 # Set default language for output
 export LC_ALL=en_US.UTF-8
 
